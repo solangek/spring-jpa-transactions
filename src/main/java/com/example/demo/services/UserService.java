@@ -39,7 +39,6 @@ public class UserService {
         return repository.findById(id);
     }
 
-
     public List<User> getUsers() {
         return repository.findAll();
     }

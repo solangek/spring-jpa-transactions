@@ -31,6 +31,7 @@ public class UserController {
     public String showSignUpForm(User user, Model model) {
         return "add-user";
     }
+
     @GetMapping("/transactionBAD")
     public String transactionBAD(Model model) {
         // we're going to add 3 users but one of them will fail
